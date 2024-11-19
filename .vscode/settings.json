@@ -1,0 +1,25 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.autoClosingTags": "always",
+  "keybindings": [
+    {
+      "key": "enter",
+      "command": "editor.action.triggerSuggest",
+      "when": "editorTextFocus && !editorHasSelection && !suggestWidgetVisible"
+    },
+    {
+      "key": "enter",
+      "command": "acceptSelectedSuggestion",
+      "when": "suggestWidgetVisible"
+    }
+  ]
+}
