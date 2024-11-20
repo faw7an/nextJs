@@ -43,7 +43,7 @@ const Nav = () => {
                </button>
                <Link href="/profile">
                   <Image 
-                  src="/assets/images/logo.svg"
+                  src={session?.user.image}
                   alt="Profile"
                   width={30}
                   height={37}
